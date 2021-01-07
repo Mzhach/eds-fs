@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleStorage", "SimpleStorage\SimpleStorage.csproj", "{24442D9C-15CB-45F8-9C27-69281EE55FAC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C1DFA1DB-56A5-4594-8678-C2AF33A4A058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Database", "Infrastructure\Infrastructure.Database\Infrastructure.Database.csproj", "{33342B2B-D20C-4408-B378-B6B9A5A81726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{24442D9C-15CB-45F8-9C27-69281EE55FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24442D9C-15CB-45F8-9C27-69281EE55FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24442D9C-15CB-45F8-9C27-69281EE55FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33342B2B-D20C-4408-B378-B6B9A5A81726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33342B2B-D20C-4408-B378-B6B9A5A81726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33342B2B-D20C-4408-B378-B6B9A5A81726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33342B2B-D20C-4408-B378-B6B9A5A81726}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33342B2B-D20C-4408-B378-B6B9A5A81726} = {C1DFA1DB-56A5-4594-8678-C2AF33A4A058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A2E33B6-D863-4B46-847A-E4E995584FAD}
